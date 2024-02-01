@@ -7,6 +7,8 @@
   width and height són dreceres a l'ample i alt del canvas  que coincideixen
   amb l'alt i ample del navegador (viewport)
 */
+import { Pilota } from './Pilota.js'
+
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
